@@ -1,0 +1,59 @@
+name: amer_net
+description: "تطبيق احترافي لتسجيل ديون الزبائن - Amer.net - Debt tracking app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.0.0
+  
+  # Database
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  
+  # UI & Design
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.7
+  intl: ^0.19.0
+  
+  # Storage & File Operations
+  path_provider: ^2.1.1
+  share_plus: ^7.1.1
+  file_picker: ^6.1.1
+  
+  # Utilities
+  uuid: ^4.0.0
+  get_it: ^7.6.0
+  
+  # Animations
+  flutter_staggered_animations: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  fonts:
+    - family: Arabic
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-Black.ttf
+          weight: 900
