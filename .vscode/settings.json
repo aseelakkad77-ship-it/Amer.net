@@ -1,0 +1,17 @@
+# .vscode/settings.json
+{
+    "dart.flutterSdkPath": "${workspaceFolder}/flutter",
+    "dart.enableSdkFormatter": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Dart-Code.dart-code"
+    },
+    "flutter.openDevToolsAtDebugStart": false,
+    "dart.lineLength": 100,
+    "editor.rulers": [80, 100],
+    "search.exclude": {
+        "**/.dart_tool": true,
+        "**/build": true,
+        "**/.pub": true
+    }
+}
